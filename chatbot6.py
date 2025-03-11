@@ -84,8 +84,8 @@ def get_best_response(user_input, pairs, threshold=70):
     return best_match if best_match else "I'm not sure how to respond to that."
 
 # Streamlit App UI
-st.title("Medical Chatbot")
-st.write("Ask a medical-related question below:")
+st.title("PreOp ChatBot")
+st.write("Ask your preop related questions below:")
 
 # User input
 user_input = st.text_input("You:", "")
@@ -93,4 +93,4 @@ user_input = st.text_input("You:", "")
 if st.button("Send"):
     if user_input:
         response = get_best_response(user_input, pairs, threshold=65)
-        st.write("**Chatbot:**", response)
+        st.write("**PreOpBot:**", response)
