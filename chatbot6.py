@@ -112,7 +112,7 @@ st.sidebar.write("✅ More specific questions will get best results.")
 # User input
 user_input = st.text_input("")
 
-if st.button("Send"):
+if st.button("Ask"):
     if user_input:
         st.markdown(f"<p style='color: green; font-size:18px;'><b>You:</b> {user_input}</p>", unsafe_allow_html=True)
         response = get_best_response(user_input, pairs, threshold=65)
