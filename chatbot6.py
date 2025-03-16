@@ -95,13 +95,21 @@ def get_best_response(user_input, pairs, threshold=70):
     return best_match if best_match else "I'm not sure how to respond to that."
 
 # Streamlit App UI
-st.title("PreOp ChatBot")
-st.write("Ask your preop related questions below:")
+st.markdown("<h1 style='color: blue; text-align: center;'>PreOp ChatBot</h1>", unsafe_allow_html=True)
+st.markdown("<p style='font-size:18px; color: gray; text-align: center;'>Ask your preop-related questions below:</p>", unsafe_allow_html=True)
+
+# Sidebar
+st.sidebar.markdown("<h2 style='color: red;'>Chatbot Instructions</h2>", unsafe_allow_html=True)
+st.sidebar.write("✅ For commonly asked preop questions.")
+st.sidebar.write("✅ Mispelled words can result in wrong response.")
+st.sidebar.write("✅ More specific questions will get best results.")
 
 # User input
 user_input = st.text_input("You:", "")
 
 if st.button("Send"):
     if user_input:
+        st.markdown(f"<p style='color: green; font-size:18px;'><b>You:</b> {user_input}</p>", unsafe_allow_html=True)
         response = get_best_response(user_input, pairs, threshold=65)
-        st.write("**PreOpBot:**", response)
+        st.markdown(f"<div style='background-color:#f0f0f0; padding:10px; border-radius:10px;'>"
+                    f"<b>PreOpBot:</b> {response}</div>", unsafe_allow_html=True)
