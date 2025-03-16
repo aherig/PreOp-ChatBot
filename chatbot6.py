@@ -29,6 +29,11 @@ pairs = [
     ("Do I order heparin for Parsee patients?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
     ("Do I order heparin for Chu patients?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
     ("Do I order heparin for Al Masri patients?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
+    ("Do I order heparin for Moritz cases?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
+    ("Do I order heparin for Talluri cases?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
+    ("Do I order heparin for Parsee cases?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
+    ("Do I order heparin for Chu cases?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
+    ("Do I order heparin for Al Masri cases?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
 # Refer to protocol for heparin guidelines
     ("Do I order heparin for a cholecystectomy?", "For laprascopic or open cholecystectomy please refer to specific guidelines when ordering protocol."),
     ("Should heparin be ordered for Cholecystectomy cases?", "For laprascopic or open cholecystectomy please refer to specific guidelines when ordering protocol."),
