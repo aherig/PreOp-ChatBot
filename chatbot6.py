@@ -110,7 +110,7 @@ st.sidebar.write("✅ Mispelled words can result in wrong response.")
 st.sidebar.write("✅ More specific questions will get best results.")
 
 # User input
-user_input = st.text_input("You:", "")
+user_input = st.text_input("")
 
 if st.button("Send"):
     if user_input:
