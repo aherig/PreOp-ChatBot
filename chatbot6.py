@@ -3,6 +3,7 @@ from fuzzywuzzy import fuzz
 
 # Define chatbot responses using pairs
 pairs = [
+# Do not order or give heparin for these procedures
     ("Should heparin be ordered for open inguinal hernia cases?", "Heparin should not be ordered or given for open inguinal hernia cases."),
     ("Do I order heparin for open inguinal hernia cases?", "Heparin should not be ordered or given for open inguinal hernia cases."),
     ("Do open inguinal hernia cases need heparin?", "Do not order or give heparin for open inguinal hernia cases."),
