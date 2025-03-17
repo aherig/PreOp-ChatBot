@@ -100,7 +100,24 @@ pairs = [
     ("How many mg ICG do I give?", "Indocyanine green dye comes in a vial that contains 25mg. Reconstitute with 10ml sterile water. Sterile water is in the same pyxis drawer as the dye. Administer 6.5mg or roughly 2.5ml of reconstituted dye. Follow administration of dye with 10-12ml saline flush. Usually given 30-45 minutes prior to cholecystectomy."),
     ("How long prior to a procedure do I give ICG?", "Indocyanine green dye comes in a vial that contains 25mg. Reconstitute with 10ml sterile water. Sterile water is in the same pyxis drawer as the dye. Administer 6.5mg or roughly 2.5ml of reconstituted dye. Follow administration of dye with 10-12ml saline flush. Usually given 30-45 minutes prior to cholecystectomy."),
     ("How much time before a procedure do I need to give ICG?", "Indocyanine green dye comes in a vial that contains 25mg. Reconstitute with 10ml sterile water. Sterile water is in the same pyxis drawer as the dye. Administer 6.5mg or roughly 2.5ml of reconstituted dye. Follow administration of dye with 10-12ml saline flush. Usually given 30-45 minutes prior to cholecystectomy."),
-    ("How long before a procedure do I need to administer ICG?", "Indocyanine green dye comes in a vial that contains 25mg. Reconstitute with 10ml sterile water. Sterile water is in the same pyxis drawer as the dye. Administer 6.5mg or roughly 2.5ml of reconstituted dye. Follow administration of dye with 10-12ml saline flush. Usually given 30-45 minutes prior to cholecystectomy.")
+    ("How long before a procedure do I need to administer ICG?", "Indocyanine green dye comes in a vial that contains 25mg. Reconstitute with 10ml sterile water. Sterile water is in the same pyxis drawer as the dye. Administer 6.5mg or roughly 2.5ml of reconstituted dye. Follow administration of dye with 10-12ml saline flush. Usually given 30-45 minutes prior to cholecystectomy."),
+# IV placement restrictions
+    ("Where do I put an IV for an anterior total hip?", "For an anterior total hip place the IV on the opposite side of the surgery."),
+    ("Which side does the IV for an anterior total hip procedure go?", "For an anterior total hip place the IV on the opposite side of the surgery."),
+    ("Are there restrictions for IV placement with anterior total hip procedure?", "For an anterior total hip place the IV on the opposite side of the surgery."),
+    ("Where should I put an IV for an anterior total hip?", "For an anterior total hip procedure place the IV on the opposite side of the surgery."),
+    ("Where do I put an IV for a hip arthroscopy?", "For a hip arthroscopy procedure place the IV on the opposite side of the surgery."),
+    ("Which side does the IV for a hip arthroscopy procedure go?", "For a hip arthroscopy procedure place the IV on the opposite side of the surgery."),
+    ("Are there restrictions for IV placement with a hip arthroscopy procedure?", "For a hip arthroscopy procedure place the IV on the opposite side of the surgery."),
+    ("Where should I put an IV for a hip arthroscopy?", "For a hip arthroscopy procedure place the IV on the opposite side of the surgery."),
+    ("Where do I put an IV for a posterior total hip?", "For a posterior total hip procedure place the IV on the same side of the surgery."),
+    ("Which side does the IV for a posterior total hip procedure go?", "For a posterior total hip procedure place the IV on the same side of the surgery."),
+    ("Are there restrictions for IV placement with a posterior total hip procedure?", "For a posterior total hip procedure place the IV on the same side of the surgery."),
+    ("Where should I put an IV for a posterior total hip?", "For a posterior total hip procedure place the IV on the same side of the surgery."),
+    ("Where do I put an IV for a colonoscopy?", "For a colonoscopy place the IV on the right side."),
+    ("Which side does the IV for a colonoscopy go?", "For a colonoscopy place the IV on the right side."),
+    ("Are there restrictions for IV placement for a colonoscopy?", "For a colonoscopy place the IV on the right side."),
+    ("Where should I put an IV for a colonoscopy?", "For a colonoscopy place the IV on the right side.")
 ]
 
 # Function to find the best match based on similarity
