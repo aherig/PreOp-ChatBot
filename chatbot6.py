@@ -124,7 +124,7 @@ pairs = [
     ("Where do I put an IV for a colonoscopy?", "For a colonoscopy place the IV on the right side."),
     ("Which side does the IV for a colonoscopy go?", "For a colonoscopy place the IV on the right side."),
     ("Are there restrictions for IV placement for a colonoscopy?", "For a colonoscopy place the IV on the right side."),
-    ("Where should I put an IV for a colonoscopy?", "For a colonoscopy place the IV on the right side.")
+    ("Where should I put an IV for a colonoscopy?", "For a colonoscopy place the IV on the right side."),
 # When meds should be discontinued prior to surgery
     ("When should MAO inhibitors be stopped before surgery?", "MAO inhibitors must be stopped two weeks prior to surgery."),
     ("How long should MAO inhibitors be stopped before surgery?", "MAO inhibitors must be stopped two weeks prior to surgery."),
