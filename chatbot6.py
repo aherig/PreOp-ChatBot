@@ -524,8 +524,7 @@ pairs = [
     ("Can probiotics be taken before surgery?", "Vitamins, herbals, and dietary supplements should preferably be stopped for 14 days prior to surgery unless OK'd by surgeon. Exceptions include Vitamin D, Magnesium, Calcium, and probiotics.  They can be taken up until the day of surgery."),
     ("Should probiotics be discontinued before surgery?", "Vitamins, herbals, and dietary supplements should preferably be stopped for 14 days prior to surgery unless OK'd by surgeon. Exceptions include Vitamin D, Magnesium, Calcium, and probiotics.  They can be taken up until the day of surgery."),
     ("How long before surgery should a patient stop taking probiotics?", "Vitamins, herbals, and dietary supplements should preferably be stopped for 14 days prior to surgery unless OK'd by surgeon. Exceptions include Vitamin D, Magnesium, Calcium, and probiotics.  They can be taken up until the day of surgery."),
-    ("When should a patient stop taking probiotics before surgery?", "Vitamins, herbals, and dietary supplements should preferably be stopped for 14 days prior to surgery unless OK'd by surgeon. Exceptions include Vitamin D, Magnesium, Calcium, and probiotics.  They can be taken up until the day of surgery."),
-    
+    ("When should a patient stop taking probiotics before surgery?", "Vitamins, herbals, and dietary supplements should preferably be stopped for 14 days prior to surgery unless OK'd by surgeon. Exceptions include Vitamin D, Magnesium, Calcium, and probiotics.  They can be taken up until the day of surgery.")    
 ]
 
 # Function to find the best match based on similarity
