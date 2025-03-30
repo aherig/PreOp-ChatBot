@@ -550,12 +550,7 @@ st.sidebar.markdown("<h2 style='color: red;'>Chatbot Troubleshooting</h2>", unsa
 st.sidebar.write("✅ For commonly asked preop questions.")
 st.sidebar.write("✅ Mispelled words can result in wrong response.")
 st.sidebar.write("✅ More specific questions will get best results.")
-st.sidebar.write("✅ Try asking questions about:
-                        Heparin guidelines,
-                        ICG,
-                        IV placement,
-                        When to DC meds prior to surgery
-                 ")
+st.sidebar.write("✅ Try asking questions about: Heparin guidelines, ICG, IV placement, When to DC meds prior to surgery")
 
 # User input
 user_input = st.text_input("")
