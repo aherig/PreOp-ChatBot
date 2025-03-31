@@ -524,7 +524,34 @@ pairs = [
     ("Can probiotics be taken before surgery?", "Vitamins, herbals, and dietary supplements should preferably be stopped for 14 days prior to surgery unless OK'd by surgeon. Exceptions include Vitamin D, Magnesium, Calcium, and probiotics.  They can be taken up until the day of surgery."),
     ("Should probiotics be discontinued before surgery?", "Vitamins, herbals, and dietary supplements should preferably be stopped for 14 days prior to surgery unless OK'd by surgeon. Exceptions include Vitamin D, Magnesium, Calcium, and probiotics.  They can be taken up until the day of surgery."),
     ("How long before surgery should a patient stop taking probiotics?", "Vitamins, herbals, and dietary supplements should preferably be stopped for 14 days prior to surgery unless OK'd by surgeon. Exceptions include Vitamin D, Magnesium, Calcium, and probiotics.  They can be taken up until the day of surgery."),
-    ("When should a patient stop taking probiotics before surgery?", "Vitamins, herbals, and dietary supplements should preferably be stopped for 14 days prior to surgery unless OK'd by surgeon. Exceptions include Vitamin D, Magnesium, Calcium, and probiotics.  They can be taken up until the day of surgery.")    
+    ("When should a patient stop taking probiotics before surgery?", "Vitamins, herbals, and dietary supplements should preferably be stopped for 14 days prior to surgery unless OK'd by surgeon. Exceptions include Vitamin D, Magnesium, Calcium, and probiotics.  They can be taken up until the day of surgery."),
+# Weight loss medications, diet pills
+    ("When should diet pills be stopped before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("How long should diet pills be stopped before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("Can diet pills be taken before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("Should diet pills be discontinued before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("How long before surgery should a patient stop taking diet pills?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("When should a patient stop taking diet pills before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("When should Pondamin be stopped before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("How long should Pondamin be stopped before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("Can Pondamin be taken before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("Should Pondamin be discontinued before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("How long before surgery should a patient stop taking Pondamin?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("When should a patient stop taking Pondamin before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("When should Fastin be stopped before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("How long should Fastin be stopped before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("Can Fastin be taken before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("Should Fastin be discontinued before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("How long before surgery should a patient stop taking Fastin?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+    ("When should a patient stop taking Fastin before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
+# Phentermine
+    ("When should Phentermine be stopped before surgery?", "Must be stopped 7 days prior to surgery."),
+    ("How long should Phentermine be stopped before surgery?", "Must be stopped 7 days prior to surgery."),
+    ("Can Phentermine be taken before surgery?", "Must be stopped 7 days prior to surgery."),
+    ("Should Phentermine be discontinued before surgery?", "Must be stopped 7 days prior to surgery."),
+    ("How long before surgery should a patient stop taking Phentermine?", "Must be stopped 7 days prior to surgery."),
+    ("When should a patient stop taking Phentermine before surgery?", "Must be stopped 7 days prior to surgery.")
+# GLP-1 agonists
 ]
 
 # Function to find the best match based on similarity
@@ -551,10 +578,10 @@ st.sidebar.write("✅ For commonly asked preop questions.")
 st.sidebar.write("✅ Mispelled words can result in wrong response.")
 st.sidebar.write("✅ More specific questions will get best results.")
 st.sidebar.write("✅ Try asking questions about:")
-st.sidebar.write("    -Heparin Guidelines")
-st.sidebar.write("    -ICG")
-st.sidebar.write("    -IV Placement")
-st.sidebar.write("    -When to DC meds prior to surgery")
+st.sidebar.write(" -Heparin Guidelines")
+st.sidebar.write(" -ICG")
+st.sidebar.write(" -IV Placement")
+st.sidebar.write(" -When to DC meds prior to surgery")
 
 # User input
 user_input = st.text_input("")
