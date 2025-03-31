@@ -545,12 +545,12 @@ pairs = [
     ("How long before surgery should a patient stop taking Fastin?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
     ("When should a patient stop taking Fastin before surgery?", "Diet pills such as Pondamin and Fastin must be stopped 2 weeks prior to surgery."),
 # Phentermine
-    ("When should Phentermine be stopped before surgery?", "Must be stopped 7 days prior to surgery."),
-    ("How long should Phentermine be stopped before surgery?", "Must be stopped 7 days prior to surgery."),
-    ("Can Phentermine be taken before surgery?", "Must be stopped 7 days prior to surgery."),
-    ("Should Phentermine be discontinued before surgery?", "Must be stopped 7 days prior to surgery."),
-    ("How long before surgery should a patient stop taking Phentermine?", "Must be stopped 7 days prior to surgery."),
-    ("When should a patient stop taking Phentermine before surgery?", "Must be stopped 7 days prior to surgery.")
+    ("When should Phentermine be stopped before surgery?", "Phentermine must be stopped 7 days prior to surgery."),
+    ("How long should Phentermine be stopped before surgery?", "Phentermine must be stopped 7 days prior to surgery."),
+    ("Can Phentermine be taken before surgery?", "Phentermine must be stopped 7 days prior to surgery."),
+    ("Should Phentermine be discontinued before surgery?", "Phentermine must be stopped 7 days prior to surgery."),
+    ("How long before surgery should a patient stop taking Phentermine?", "Phentermine must be stopped 7 days prior to surgery."),
+    ("When should a patient stop taking Phentermine before surgery?", "Phentermine must be stopped 7 days prior to surgery.")
 # GLP-1 agonists
 ]
 
