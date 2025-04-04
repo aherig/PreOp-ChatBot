@@ -24,6 +24,9 @@ pairs = [
     ("Should heparin be ordered for PD cath placement cases?", "Heparin should not be ordered for PD cath placement cases."),
     ("Do I order heparin for PD cath placement cases?", "Heparin should not be ordered or given for PD cath placement cases."),
 # Drs that do not want heparin pulled or given
+    ("Which surgeons don't want me to pull or give heparin?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
+    ("Which Dr's don't want me to pull heparin?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
+    ("Which doctors don't want me to give heparin?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
     ("Which Dr's don't want me to pull or give heparin?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
     ("Which doctors don't want me to pull or give heparin?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
     ("Does Dr Moritz want me to give heparin?", "The Dr's that want heparin ordered but don't want you to pull or give it are Moritz, Talluri, Parsee, and Chu/Al Masri."),
